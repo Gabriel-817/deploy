@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return 'aws 홈페이지'
+    return 'aws 홈페이지3'
 
 if __name__ == '__maim__':
     app.run( debug=True )
