@@ -1,7 +1,7 @@
 {
-    "REPO_URL":"https://github.com/kenshi/de",
+    "REPO_URL":"https://github.com/Gabriel-817/de",
     "PROJECT_NAME":"de",
-    "REMOTE_HOST":"ec2-54-180-116-168.ap-northeast-2.compute.amazonaws.com",
-    "REMOTE_HOST_SSH":"54.180.116.168",
+    "REMOTE_HOST":"13.125.219.65",
+    "REMOTE_HOST_SSH":"13.125.219.65",
     "REMOTE_USER":"ubuntu"
   }
