@@ -27,7 +27,11 @@ deploy
 - $ fab new_server
 - 중간에 y, git 로그인 등이 나올 수 있다
 - 13.125.219.65 접속
-- $ tail -f /var/apache2/access.log
+- $ tail -f /var/log/apache2/access.log
+- 모니터링하다가
+- 빠져나가기 => ctrl + c
+- 에러로그
+- $ tail -f /var/log/apache2/error.log
 
 # 이후작업
 - 코드수정
@@ -47,3 +51,9 @@ deploy
     $ rm -r -f .virtualenvs
 - 로컬 PC
     $ fab new_server
+
+# 가상 호스트가 설정된 부분
+- deploy는 프로젝트명(deploy.json)
+- /etc/apache2/sites-available/deploy.conf
+- 파일 읽기
+    $ cat /etc/apache2/sites-available/deploy.conf 
